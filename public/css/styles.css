@@ -1,0 +1,202 @@
+#root {
+  background-attachment: fixed;
+  background-image:      url("../img/noten_small_640x853.jpg");
+
+  /* size */
+  background-position:   center center;
+
+  /* shape */
+  background-repeat:     no-repeat;
+
+  /* background */
+  background-size:       cover;
+  border-radius:         0.5rem;
+  margin:                0;
+  padding:               0;
+  width:                 23rem;
+}
+
+#container {
+
+  opacity: 85%;
+}
+
+#add {
+  border-radius: 0.5rem;
+  margin-top:    0.2rem;
+  width:         100%;
+}
+
+:root {
+  --mdc-theme-primary:   #33691E;
+  --mdc-theme-secondary: #827717;
+}
+
+header {
+  padding: 0.3rem;
+}
+
+main {
+  padding: 0.4rem;
+}
+
+h2, dd {
+  background-color: var(--mdc-theme-on-primary);
+  padding:          0.3rem;
+}
+
+.aktiv {
+  background-color: chocolate
+}
+
+.inaktiv {
+  background-color: cornflowerblue
+}
+
+.popup {
+  border-radius: 2rem;
+}
+
+h1, h2, dl {
+  margin:         0;
+  vertical-align: middle;
+}
+
+h2 {
+  border-radius: 0.5rem;
+  padding:       4px 0 10px 4px;
+}
+
+i.material-icons {
+  cursor: pointer;
+  float:  right;
+}
+
+button.material-icons {
+  font-size:      inherit;
+  vertical-align: bottom
+}
+
+[type="checkbox"] {
+  margin-right:   8px;
+  vertical-align: middle;
+}
+
+dl {
+  border-radius:  0.5rem;
+  display:        table;
+  vertical-align: middle;
+  width:          100%;
+}
+
+dt {
+  background-color: cornflowerblue;
+  color:            var(--mdc-theme-on-primary);
+  font-weight:      500;
+  padding:          3px 5px;
+  vertical-align:   middle;
+}
+
+dt span {
+  width: 100%;
+}
+
+dt, dd {
+  font-size:      1rem;
+  height:         2rem;
+  vertical-align: middle;
+}
+
+dd {
+  display: flex;
+  margin:  0;
+}
+
+dd label {
+  overflow:            hidden;
+  padding:             3px 0;
+  text-after-overflow: ellipsis;
+  text-overflow:       ellipsis;
+  vertical-align:      middle;
+}
+
+dd label input[type="checkbox"] {
+  margin:         6px 6px;
+  vertical-align: middle;
+}
+
+dd input[type="search"] {
+  margin-left: 1.5rem;
+  width:       100%;
+}
+
+.mdc-text-field {
+  height: 2.3rem;
+}
+
+label {
+  cursor:         pointer;
+  vertical-align: middle;
+  width:          91%;
+}
+
+footer {
+  display:         flex;
+  justify-content: space-between;
+  padding:         0;
+}
+
+
+#genreButton {
+  background-color: cornflowerblue;
+  border-radius:    0 0.5rem 0 0.5rem;
+  color:            whitesmoke;
+  font-size:        1rem;
+  font-weight:      bolder;
+  opacity:          98%;
+}
+
+#sortButton {
+  background-color: cornflowerblue;
+  border-radius:    0.5rem 0.5rem 0 0;
+  color:            whitesmoke;
+  font-size:        1rem;
+  font-weight:      bolder;
+  opacity:          98%;
+}
+
+#clearButton {
+  background-color: cornflowerblue;
+  border-radius:    0.5rem 0 0.5rem 0;
+  color:            whitesmoke;
+  font-size:        1rem;
+  font-weight:      bolder;
+  opacity:          98%;
+}
+
+.mdc-dialog {
+  opacity: 100%;
+}
+
+.mdc-dialog__surface {
+  left:     25px;
+  position: absolute;
+  top:      10%;
+}
+
+/*noinspection CssNoGenericFontName*/
+.material-icons {
+  direction:                     ltr;
+  display:                       inline-block;
+  font-family:                   "Material Icons";
+  -webkit-font-feature-settings: "liga";
+  font-size:                     30px;
+  -webkit-font-smoothing:        antialiased;
+  font-style:                    normal;
+  font-weight:                   normal;
+  letter-spacing:                normal;
+  line-height:                   1;
+  text-transform:                none;
+  white-space:                   nowrap;
+  word-wrap:                     normal;
+}
